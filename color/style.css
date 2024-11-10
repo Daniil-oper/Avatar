@@ -1,0 +1,142 @@
+
+
+:root{
+
+
+
+
+
+}
+
+.container {
+    width: 1440px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter";
+}
+
+
+/* -------header------- */
+
+.head-logo{
+    width: 186px;
+    height: 72px;
+    display: flex;
+    margin-right: 93px;
+}
+.head-all{
+    display: flex;
+}
+.head-info{
+    display: flex;
+    gap: 38px;
+}
+.head-Contacts{
+    margin-right: 228px;
+}
+.head-log{
+    display: flex;
+    gap: 10px;
+}
+.head-peremukach{
+    width: 36px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
