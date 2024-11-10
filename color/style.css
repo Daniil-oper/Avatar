@@ -1,11 +1,14 @@
 
 
 :root{
-
-
-
-
-
+    --akcen-tcolor: #94CFFF;
+    --logo-colot: #FFFFFF;
+    --main-text: #212121;
+    --et-textcolor: #26C6EA;
+    --title-color: #0A3853;
+    --borter-color: #0B0E66;
+    --tim-background: #000000;
+    --footer-background: #141414;
 }
 
 .container {
@@ -28,30 +31,70 @@ body {
 
 /* -------header------- */
 
-.head-logo{
+.head-logo  {
     width: 186px;
     height: 72px;
     display: flex;
     margin-right: 93px;
 }
-.head-all{
+.head-all   {
     display: flex;
 }
-.head-info{
+.head-info  {
     display: flex;
     gap: 38px;
 }
-.head-Contacts{
+.head-Contacts  {
     margin-right: 228px;
 }
-.head-log{
+.head-log_in    {
+    margin-right: 49px;
+}
+.head-log   {
     display: flex;
     gap: 10px;
 }
-.head-peremukach{
+.head-peremukach    {
     width: 36px;
     height: 20px;
 }
+.head-mains {
+    color: var(--akcen-tcolor);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.head-hero  {
+    color: var(--logo-colot);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.head-Contacts {
+    color: var(--logo-colot);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.head-ENG{
+    color: var(--logo-colot);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,25;
+}
+.head-UA {
+    color: var(--logo-colot);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1, 25;
+}
+
+
 
 
 
