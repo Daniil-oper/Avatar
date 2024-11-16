@@ -95,10 +95,28 @@ body {
 }
 
 
+/* --------body---text---img---step_1---------  */
 
 
 
 
+
+.box-text{
+    width: 298px;
+    height: 96px;
+    flex-shrink: 0;
+
+    color: var(--logo-colot);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1,2;
+}
+.box-img{
+    width: 152px;
+    height: 40px;
+}
+
+ 
 
 
 
