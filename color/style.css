@@ -58,9 +58,14 @@ body {
     border: 3px solid var(--et-textcolor);
     background: var(--borter-color);
     border-radius: 45px 0px 45px 0px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+
+    color: #26C6EA;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .head-but-text{
@@ -172,9 +177,7 @@ body {
     border: 3px solid var(--et-textcolor);
     background: var(--borter-color);
     border-radius: 45px 0px 45px 0px;
-    /* display: flex;
-    justify-content: center;
-    align-content: center; */
+
     color: #26C7EA;
     text-align: center;
     font-family: HeadlandOne;
