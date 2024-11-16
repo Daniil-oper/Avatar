@@ -84,15 +84,32 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,25;
+    line-height: 1.25;
 }
 .head-UA {
     color: var(--logo-colot);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1, 25;
+    line-height: 1.25;
 }
+.box{
+    background-image: url(../img_portfoleo_one/sad_foto.jpg);
+}
+
+.head{
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* --------body---text---img---step_1---------  */
@@ -109,13 +126,40 @@ body {
     color: var(--logo-colot);
     font-size: 20px;
     font-weight: 400;
-    line-height: 1,2;
+    line-height: 1.2;
 }
 .box-img{
     width: 152px;
     height: 40px;
 }
+.box-texts{
+    color: var(--logo-colot);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
 
+    width: 376px;
+    height: 123px;
+}
+.box-button{
+    /* border-radius: 260px 0px; */
+    width: 260px;
+    height: 80px;
+    flex-shrink: 0;
+    border: 3px solid var(--et-textcolor);
+    background: var(--borter-color);
+    border-radius: 45px 0px 45px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box-bt_text{
+    color: var(--et-textcolor);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+}
  
 
 
