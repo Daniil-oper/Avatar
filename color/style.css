@@ -117,7 +117,7 @@ body {
 }
 
 .box{
-    background-image: url(../img_portfoleo_one/sad_foto.jpg);
+    background-image: url(../img_portfoleo_one/Group.jpg);
 }
 
 .head-all{
@@ -220,6 +220,7 @@ body {
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
+    
     margin-left: 170px;
     margin-right: 170px;
 }
@@ -239,6 +240,18 @@ body {
     margin-left: 520px;
     margin-right: 520px;
 }
+.slaid-texts{
+    margin-left: 307px;
+    margin-right: 308px;
+
+    color: var(--title-color);
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
+
 
 
 
