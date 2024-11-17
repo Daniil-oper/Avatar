@@ -117,7 +117,7 @@ body {
 }
 
 .box{
-    background-image: url(../img_portfoleo_one/Group.jpg);
+    background-image: url(../img/Group.jpg);
 }
 
 .head-all{
@@ -244,6 +244,7 @@ body {
     margin-left: 307px;
     margin-right: 308px;
 
+
     color: var(--title-color);
     text-align: justify;
     font-size: 36px;
@@ -266,6 +267,7 @@ body {
     margin-bottom: 331px;
     margin-left: 590px;
     margin-right: 590px;
+
 
     border-radius: 45px 0px;
     border: 3px solid var(--et-textcolor);
