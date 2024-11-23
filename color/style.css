@@ -57,12 +57,14 @@ body {
     border: 3px solid var(--et-textcolor);
     background: var(--borter-color);
     border-radius: 45px 0px 45px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     color: var(--et-textcolor);
     text-align: justify;
     font-family: HeadlandOne;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
         
@@ -288,15 +290,27 @@ body {
     flex-shrink: 0;
 }
 
+/* < !-- -------------------body----text---boxs_6---step_4----- --> */
 
 
+.item{
+    background-image: url(../img/ostrow.png);
+}
+
+.item-box{
+    width: 320px;
+    height: 240px;
+    flex-shrink: 0;
+    
+
+}
 
 
-
-
-
-
-
+.item-foto{
+    width: 152px;
+    height: 40px;
+    flex-shrink: 0;
+}
 
 
 
