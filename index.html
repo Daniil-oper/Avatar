@@ -12,48 +12,53 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <!-- ---------------Header-logo-perechod----------------- -->
 <body>
-<header>
-    <section class="head">
-        <div class="container">
-        <div class="head-all">
+<header class="head">
+        <div class="container head-box" >
         <a href="./index.html"><img src="./img_portfoleo_one/avatar.png" alt="logo_name" class="head-logo"></a>
 
             <ul class="head-info">
                 <li class="head-mains"><a href="">Main</a></li>
-                <li class="head-hero"><a href="">About us</a></li>
-                <li class="head-Contacts"><a href="">Contacts</a></li>
+                <li class="head-mains"><a href="">About us</a></li>
+                <li class="head-mains"><a href="">Contacts</a></li>
             </ul>
             <ul class="head-log">
-                <li class="head-log_in"><button><div class="head-but-text">Log In</div></button></li>
+                <li class="head-log_in"><button>Log In</button></li>
                 <li class="head-ENG"><a href="./index.html">ENG</a></li>
                 <li class="head-peremukach"><a href="#"><img src="./img_portfoleo_one/perekluchateli.png" alt="перимекач"></a></li>
                 <li class="head-UA"><a href="">UA</a></li>
             </ul>
         </div>
-        </div>
-    </section>
 </header>
 
 <!-- -----------------------body---text---img---step_1------ -->
 
     <section class="box">
         <div class="container">
-            <ul class="box-info">
-                <li class="box-text"><p>Oe perlltxe hu tsamsiyu!
+            <div class="box-info">
+
+                <p class="box-text">Oe perlltxe hu tsamsiyu!
                 Ngari hu Eywa salew tirea,
                 tokx 'ì'awn slu Na'viyä hapxì.
-                Säwem nìayoeng!</p></li>
-                <li class="box-img"><img src="./img_portfoleo_one/trela_light.png" alt="strela"></li>
-                <li class="box-texts"><p>I'm speaking with the warrior!
+                Säwem nìayoeng!</p> 
+    
+                <img src="./img_portfoleo_one/trela_light.png" alt="strela" class="box-img">
+
+                <p class="box-texts">I'm speaking with the warrior!
                 Your spirit goes with Eywa,
                 your body stays behind to
                 become part of the People.
-                Fight with us!</p></li>
-            </ul>
+                Fight with us!</p>
+
+            </div>
+
                 <button class="box-button">Join clan</button>
         </div>
     </section>
@@ -62,15 +67,14 @@
 
     <section class="slaid">
         <div class="container">
+            <div class="slaid-all">
             <!-- slaid-info -->
-                    <p class="slaid-text">“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE</p>
-
-                    <p><div class="slaid-texts">GONNA COME LIKE A RAIN THAT NEVER ENDS.”</div></p>
-
-                    <p class="slaid-min-text">JAKE SULLY</p>
-
+                   <blockquote>
+                    <p class="slaid-desk">“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE GONNA COME LIKE A RAIN THAT NEVER ENDS.”</p>
+                    <cite class="slaid-min-text">JAKE SULLY</cite>
+                    </blockquote>
                     <img src="./img_portfoleo_one/strelu.png" alt="ptusa" class="slaid-img">
-
+            </div>
         </div>
     </section>
 
@@ -78,7 +82,9 @@
 
     <section class="video">
         <div class="container">
+
                 <button class="video-button">WATCH TRAILER</button>
+
         </div>
     </section>
 
@@ -86,26 +92,24 @@
 
     <section class="slaid">
         <div class="container">
-            <!-- slaid-info -->
-            <p class="slaid-text">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY</p>
-    
-            <p>
-            <div class="slaid-texts">YOU HAVE TO GIVE IT BACK.”</div>
-            </p>
-    
-            <p class="slaid-min-text">JAKE SULLY</p>
-    
-            <img src="./img_portfoleo_one/strelu.png" alt="ptusa" class="slaid-img">
-    
+            <div class="slaid-all">
+                <!-- slaid-info -->
+                <blockquote>
+                    <p class="slaid-desk">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY YOU HAVE TO GIVE IT BACK.”</p>
+
+                    <cite class="slaid-min-text">JAKE SULLY</cite>
+                </blockquote>
+                <img src="./img_portfoleo_one/strelu.png" alt="ptusa" class="slaid-img">
+            </div>
         </div>
     </section>
-
 <!-- -------------------body----text---boxs_6---step_4----- -->
 
-    <section>
+    <section class="item">
         <div class="container">
-            <ul class="item">
                 <p class="item-text">Let's learn the Na'vi language</p>
+            <div class="item-posicen">
+            <ul class="item-all">
 
                 <li class="item-box">
                     <p>Hello</p>
@@ -123,7 +127,7 @@
                     <p>How Are You?</p>
                     <img src="./img_portfoleo_one/strelu.png" alt="dwe_strulu" class="item-foto">
                     <p>Ngaru lu fpom srak?</p>
-                </li class="item-box">
+                </li>
 
                 <li class="item-box">
                     <p>I See You</p>
@@ -143,6 +147,7 @@
                     <p>Nong oet!</p>
                 </li>
             </ul>
+            </div>
         </div>
     </section>
 
@@ -150,36 +155,34 @@
 
     <section class="slaid">
         <div class="container">
-            <!-- slaid-info -->
-            <p class="slaid-text">“OUR GREAT MOTHER DOES NOT TAKE SIDES,</p>
-    
-            <p>
-            <div class="slaid-texts">SHE PROTECTS ONLY THE BALANCE OF LIFE.”</div>
-            </p>
-    
-            <p class="slaid-min-text">NEYTIRI</p>
-    
-            <img src="./img_portfoleo_one/strelu.png" alt="ptusa" class="slaid-img">
-    
+            <div class="slaid-all">
+                <!-- slaid-info -->
+                <blockquote>
+                    <p class="slaid-desk">“OUR GREAT MOTHER DOES NOT TAKE SIDES, SHE PROTECTS ONLY THE BALANCE OF LIFE.”</p>
+
+                    <cite class="slaid-min-text">NEYTIRI</cite>
+                </blockquote>
+                <img src="./img_portfoleo_one/strelu.png" alt="ptusa" class="slaid-img">
+            </div>
         </div>
     </section>
 
 <!-- -------------------------footer---logo---info------------ -->
 
-<footer>
+<footer class="end">
         <div class="container">
-            <ul>
-                <li><a href="./index.html"><img src="./img_portfoleo_one/avatar.png" alt="logo_name_index"></a></li>
-                <li>
-                    <p>Q&A E-mail</p>
-                    <a href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a>
+
+            <a href="./index.html" class="end-logo"><img src="./img_portfoleo_one/avatar.png" alt="logo_name_index"></a>
+            <div class="end-line">            </div>
+            <ul class="end-all">
+                <li class="end-email">
+                    <p>Q&A E-mail -------------- <a href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a></p>
                 </li>
-                <li>
-                    <p>Cooperation E-mail</p>
-                    <a href="mailto:avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a>
+                <li class="end-emails">
+                    <p>Cooperation E-mail-------------- <a href="mailto:avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a></p>
                 </li>
-                <li><p>&#169;2023 Avatar: The Way Of Water. All rights reserved</p></li>
             </ul>
+            <p class="end-end">&#169;2023 Avatar: The Way Of Water. All rights reserved</p>
         </div>
 </footer>
 </body>

@@ -13,12 +13,12 @@
 }
 
 .container {
-    width: 1440px;
+    width: 1056px;
     outline: 1px solid red;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 * {
@@ -32,21 +32,10 @@ body {
 
 /* -------header------- */
 
-.head-logo  {
-    width: 186px;
-    height: 72px;
-    display: flex;
-    margin-right: 93px;
-}
-.head-all   {
-    display: flex;
-}
+
 .head-info  {
     display: flex;
     gap: 38px;
-}
-.head-Contacts  {
-    margin-right: 228px;
 }
 .head-log_in    {
     margin-right: 49px;
@@ -73,7 +62,11 @@ body {
 
 
 .head-log   {
+    width: 186px;
+    height: 72px;
+
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 .head-peremukach    {
@@ -122,11 +115,15 @@ body {
     background-image: url(../img/Group.jpg);
 }
 
-.head-all{
+.head{
     padding-top: 39px;
     padding-bottom: 39px;
 }
-
+.head-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -140,7 +137,10 @@ body {
 /* --------body---text---img---step_1---------  */
 
 
-
+.box{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
 
 
 .box-text{
@@ -152,6 +152,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
+
 }
 .box-img{
     width: 152px;
@@ -182,6 +183,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    margin-top: 42px;
 }
 .box-bt_text{
     color: var(--et-textcolor);
@@ -197,55 +200,48 @@ body {
 
 
 
-
-
-
-
-
-
-.box-text{
-    margin-top: 180px;
-}
-.box-button{
-    margin-bottom: 179px;
-}
-
-
-
 /* < !-- --------------------body---text----step_2---------------- --> */
 
+.slaid{
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
 
-
-.slaid-text{
+.slaid-desk{
     color: var(--title-color);
-    text-align: justify;
+    text-align: center;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
-    
-    margin-left: 170px;
-    margin-right: 170px;
+
+    margin-bottom: 16px;
+
 }
 
 .slaid-min-text{
     color: var(--tim-background);
-    text-align: center;
+    text-align: justify;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.2083;
+
+    display: flex;
+    justify-content: center;
+    
 }
 
 .slaid-img{
     width: 400px;
     height: 120px;
-    flex-shrink: 0;
-    margin-left: 520px;
-    margin-right: 520px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 8px;
 }
 .slaid-texts{
-    margin-left: 307px;
-    margin-right: 308px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     color: var(--title-color);
     text-align: justify;
@@ -265,10 +261,11 @@ body {
 
 
 .video-button{
-    margin-top: 330px;
-    margin-bottom: 331px;
-    margin-left: 590px;
-    margin-right: 590px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 
     border-radius: 45px 0px;
@@ -281,13 +278,14 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 1,25px;
+    
+
 }
 .video{
     background-image: url(../img/fotos.jpg);
 
-    width: 1440px;
-    height: 741px;
-    flex-shrink: 0;
+    padding-top: 355px;
+    padding-bottom: 356px;
 }
 
 /* < !-- -------------------body----text---boxs_6---step_4----- --> */
@@ -302,7 +300,12 @@ body {
     height: 240px;
     flex-shrink: 0;
     
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: rgba(255, 255, 255, 0.70);
+    
 }
 
 
@@ -313,6 +316,50 @@ body {
 }
 
 
+.item-all{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 35px;
+}
+.item-text{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1,25;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* < !-- -------------------------footer---logo---info------------ --> */
+
+
+
+
+.end-logo{
+    width: 186px;
+    height: 72px;
+    display: flex;
+    margin-right: 160px;
+}
+
+.end-all{
+    color: var(--logo-colot);
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1,2px;
+
+}
 
 
 
@@ -322,16 +369,23 @@ body {
 
 
 
+.end-end{
+    color: var(--logo-colot);
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1,21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    padding-bottom: 25px;
+}
 
-
-
-
-
-
-
-
-
+.end{
+    background-image: url(../img/water.jpg);
+ 
+}
 
 
 
