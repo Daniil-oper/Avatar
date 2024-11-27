@@ -300,7 +300,7 @@ body {
     height: 240px;
     flex-shrink: 0;
     
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     
