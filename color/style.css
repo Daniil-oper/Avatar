@@ -111,10 +111,6 @@ body {
     line-height: 1.25;
 }
 
-.box{
-    background-image: url(../img/Group.jpg);
-}
-
 .head{
     padding-top: 39px;
     padding-bottom: 39px;
@@ -140,8 +136,12 @@ body {
 .box{
     padding-top: 180px;
     padding-bottom: 180px;
-}
 
+    background-image: url(../img/Group.jpg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+
+}
 
 .box-text{
     width: 298px;
@@ -194,10 +194,6 @@ body {
     line-height: 1.25;
 }
  
-
-
-
-
 
 
 /* < !-- --------------------body---text----step_2---------------- --> */
@@ -264,9 +260,8 @@ body {
 
     display: flex;
     justify-content: center;
-    align-items: center;
 
-
+    text-align: center;
 
     border-radius: 45px 0px;
     border: 3px solid var(--et-textcolor);
@@ -286,6 +281,9 @@ body {
 
     padding-top: 355px;
     padding-bottom: 356px;
+
+    background-repeat: no-repeat;
+    background-position: center, center;
 }
 
 /* < !-- -------------------body----text---boxs_6---step_4----- --> */
@@ -293,6 +291,9 @@ body {
 
 .item{
     background-image: url(../img/ostrow.png);
+
+    background-repeat: no-repeat;
+    background-position: center, center;
 }
 
 .item-box{
