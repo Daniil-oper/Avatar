@@ -379,12 +379,12 @@ body {
 
 .end{
     background-image: url(../img/water.jpg);
- 
+    
+
+
+    background-repeat: no-repeat;
+    background-position: center, center;
 }
-
-
-
-
 
 
 
