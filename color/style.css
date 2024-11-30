@@ -381,10 +381,12 @@ body {
     background-image: url(../img/water.jpg);
     
 
-
     background-repeat: no-repeat;
     background-position: center, center;
 }
 
 
-
+.end-line{
+    display: flex;
+    justify-content: center;
+}
