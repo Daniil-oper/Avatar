@@ -114,6 +114,12 @@ body {
 .head{
     padding-top: 39px;
     padding-bottom: 39px;
+
+    background-image: url(../img/water2.jpg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    
+    padding-bottom: 10px;
 }
 .head-box{
     display: flex;
@@ -140,6 +146,8 @@ body {
     background-image: url(../img/Group.jpg);
     background-repeat: no-repeat;
     background-position: center, center;
+
+    
 
 }
 
@@ -324,6 +332,9 @@ body {
     flex-wrap: wrap;
 
     gap: 35px;
+
+    padding-bottom: 57px;
+    padding-top: 45px;
 }
 .item-text{
     color: #141414;
@@ -335,6 +346,8 @@ body {
 
     display: flex;
     justify-content: center;
+
+    padding-top: 58px;
 }
 
 
@@ -390,3 +403,10 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
+/* .end-lineal{
+    color: white;
+    width: 5px;
+    height: 153px;
+} */
