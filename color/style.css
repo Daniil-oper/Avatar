@@ -324,6 +324,7 @@ body {
     
     background: rgba(255, 255, 255, 0.70);
     
+    margin-bottom: 57px;
 }
 
 
@@ -358,6 +359,23 @@ body {
     padding-top: 58px;
 }
 
+
+.item-info{
+    color: #141414;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.item-infos {
+    color: #000;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 
 
@@ -424,7 +442,6 @@ body {
 .end-email{
     color: #FFF;
     text-align: justify;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
