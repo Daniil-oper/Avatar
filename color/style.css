@@ -310,6 +310,9 @@ body {
 
     background-repeat: no-repeat;
     background-position: center, center;
+
+    padding-top: 58px;
+    padding-bottom:  57px;
 }
 
 .item-box{
@@ -324,7 +327,7 @@ body {
     
     background: rgba(255, 255, 255, 0.70);
     
-    margin-bottom: 57px;
+   
 }
 
 
@@ -356,7 +359,6 @@ body {
     display: flex;
     justify-content: center;
 
-    padding-top: 58px;
 }
 
 
