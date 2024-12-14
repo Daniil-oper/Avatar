@@ -134,7 +134,11 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
+.head-mains:hover {
+    background: rgb(0, 80, 165);
+    border: 2px solid black;
+    border-radius: 45px 45px 45px 45px;
+}
 
 
 
