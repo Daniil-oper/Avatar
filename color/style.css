@@ -401,8 +401,23 @@ body {
     line-height: 24px;
 }
 
+.item-texts{
+    color: var(--footer-background);
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+}
 
-
+.item-text-info{
+    color: var(--tim-background);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px; 
+}
 
 /* < !-- -------------------------footer---logo---info------------ --> */
 
