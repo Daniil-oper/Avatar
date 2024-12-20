@@ -407,7 +407,7 @@ body {
     font-family: HeadlandOne;
     font-size: 24px;
     font-weight: 400;
-    line-height: 24px; /* 100% */
+    line-height: 24px; 
 }
 
 .item-text-info{
