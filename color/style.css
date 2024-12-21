@@ -452,7 +452,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding-top: 49px;
+    margin-top: 49px;
+
 }
 
 .end{
@@ -478,7 +479,7 @@ body {
 
 
 .end-lineal{
-    background-color: white;
+    background-color: var(--logo-colot);
     width: 2px;
     height: 153px;
     margin-right: 80px;
