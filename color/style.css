@@ -456,14 +456,16 @@ body {
 }
 
 .end{
-    background-image: url(../img/water.jpg);
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/water.jpg);
     /* background: rgba(43, 74, 97, 0.87); */
     
+    background-size: cover;
+
     padding-bottom: 25px;
     padding-top: 25px;
 
     background-repeat: no-repeat;
-    background-position: center, center;
+    background-position: center;
 
 }
 
@@ -476,8 +478,8 @@ body {
 
 
 .end-lineal{
-    color: white;
-    width: 5px;
+    background-color: white;
+    width: 2px;
     height: 153px;
     margin-right: 80px;
 }
