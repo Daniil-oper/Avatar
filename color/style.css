@@ -80,12 +80,26 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
+    display: flex;
+    align-items: ce;
 }
-.head-mains:first-child{
+.head-link:hover{
+    color: tomato;
+    .head-icon{
+        fill: tomato;
+    }
+}
+.head-icon{
+    width: 20px;
+    height: 20px;
+    fill: gray;
+    margin-right: 10px;
+}
+/* .head-mains:first-child{
     .head-link{
         color: var(--et-textcolor);
     }
-}
+} */
 
 .head-hero  {
     color: var(--logo-colot);
